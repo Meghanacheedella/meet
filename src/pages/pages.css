@@ -1,0 +1,56 @@
+*{
+    background-color: rgb(141, 203, 197);
+}
+.container-home{
+    margin: 20px auto;
+}
+.container{
+    width: 400px;
+    margin: 20px auto;
+}
+input{
+    width: 100%;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+.input{
+    width: 100%;
+    color: black;
+    padding: 10px 16px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.btn:hover{
+    background-color: dodgerblue;
+}
+.signin{
+    width: 400px;
+    margin: auto;
+}
+.meeting-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.meeting-card{
+    width: 400px;
+    border: 2px solid lightgray;
+    border-radius: 12px;
+    margin: 4px 6px;
+    padding: 4px 6px;
+}
+.d-none{
+    display: none;
+}

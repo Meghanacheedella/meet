@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+.nav-ul{
+    margin-left: 10px;
+    list-style-type: none;
+}
+.nav-link:hover{
+    color: dodgerblue;
+}
