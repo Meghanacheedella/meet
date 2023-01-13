@@ -20,7 +20,7 @@ function AddMeetings(){
             time:time,
             desc:desc
         }
-        fetch('https://meetapp-bad47-default-rtdb.firebaseio.com/meetings.json',{
+        fetch('https://meetings-32c4a-default-rtdb.firebaseio.com/meetings.json',{
             method:'post',
             body:JSON.stringify(meetingdata)
         }).then(()=>{

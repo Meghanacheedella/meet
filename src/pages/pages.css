@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(141, 203, 197);
+    background-color: rgb(107, 160, 155);
 }
 .container-home{
     margin: 20px auto;
@@ -53,4 +53,14 @@ input{
 }
 .d-none{
     display: none;
+}
+.icon{
+    color: black;
+    height: 20px;
+    float: right;
+}
+.liked{
+    color:red;
+    height: 20px;
+    float: right;
 }
